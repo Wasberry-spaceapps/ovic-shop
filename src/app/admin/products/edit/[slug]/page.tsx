@@ -1,7 +1,9 @@
 import EditProductClient from '@/components/admin/EditProductClient';
 
-export function generateStaticParams() {
-  return [];
+import { getProducts } from '@/lib/products';
+
+export async function generateStaticParams() {
+  return getProducts().map((product) => ({ slug: product.slug }));
 }
 
 export default function EditProductPage() {
