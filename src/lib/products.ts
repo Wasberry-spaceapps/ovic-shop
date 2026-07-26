@@ -25,6 +25,9 @@ export const ALL_CATEGORIES = [
 export interface Product {
   slug: string;
   title: string;
+  author?: string;
+  description?: string;
+  price?: number;
   imageUrl: string;
   categories?: string[];
 }
