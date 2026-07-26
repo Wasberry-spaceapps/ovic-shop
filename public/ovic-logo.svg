@@ -1,0 +1,38 @@
+<svg width="800" height="900" viewBox="0 0 100 115" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&amp;display=swap');
+    :root {
+      --cream: #FDFBF7;
+      --ink: #111111;
+      --coral: #FF6B6B;
+      --sky: #4A90E2;
+    }
+    .logo-text {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: var(--ink);
+      text-anchor: middle;
+    }
+  </style>
+  <circle cx="50" cy="50" r="35" fill="var(--cream)" stroke="var(--ink)" stroke-width="3" />
+  <path d="M 25 30 Q 20 10 35 20" fill="var(--cream)" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 75 30 Q 80 10 65 20" fill="var(--cream)" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="38" cy="40" r="8" fill="#FFF" stroke="var(--ink)" stroke-width="3" />
+  <circle cx="62" cy="40" r="8" fill="#FFF" stroke="var(--ink)" stroke-width="3" />
+  <circle cx="38" cy="40" r="3" fill="var(--ink)" />
+  <circle cx="62" cy="40" r="3" fill="var(--ink)" />
+  <circle cx="39" cy="39" r="1" fill="#FFF" />
+  <circle cx="63" cy="39" r="1" fill="#FFF" />
+  <polygon points="47,47 53,47 50,53" fill="var(--coral)" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M 18 50 Q 5 60 15 70 Q 25 70 22 60" fill="var(--cream)" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round" />
+  <path d="M 82 50 Q 95 60 85 70 Q 75 70 78 60" fill="var(--cream)" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round" />
+  <g transform="translate(35, 60)">
+    <path d="M 0 5 L 15 10 L 30 5 L 30 20 L 15 25 L 0 20 Z" fill="var(--sky)" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M 15 10 L 15 25" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" />
+    <path d="M 2 8 L 13 12" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M 17 12 L 28 8" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+  
+  <text x="50" y="105" class="logo-text">Ovic Bookstore</text>
+</svg>

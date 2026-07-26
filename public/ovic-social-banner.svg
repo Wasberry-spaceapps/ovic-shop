@@ -1,0 +1,63 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&amp;family=Quicksand:wght@500&amp;display=swap');
+    :root {
+      --cream: #FDFBF7;
+      --cream-dark: #F5F2EB;
+      --ink: #111111;
+      --coral: #FF6B6B;
+      --sky: #4A90E2;
+      --yellow: #F4D03F;
+      --green: #2ECC71;
+    }
+    .logo-text {
+      font-family: 'Fredoka', sans-serif;
+      font-size: 96px;
+      font-weight: 600;
+      fill: var(--ink);
+    }
+    .sub-text {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 36px;
+      font-weight: 500;
+      fill: var(--ink);
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="var(--cream)" />
+  
+  <!-- Decorative Elements -->
+  <circle cx="1000" cy="100" r="150" fill="var(--yellow)" opacity="0.2" />
+  <circle cx="150" cy="500" r="200" fill="var(--sky)" opacity="0.1" />
+  <circle cx="1100" cy="550" r="80" fill="var(--coral)" opacity="0.15" />
+
+  <!-- Text Group -->
+  <g transform="translate(550, 315)">
+    <text x="0" y="0" class="logo-text" dominant-baseline="middle">Ovic Bookstore</text>
+    <text x="5" y="60" class="sub-text" dominant-baseline="middle">Your cozy corner of the internet</text>
+  </g>
+
+  <!-- Mascot Group (Scaled up) -->
+  <g transform="translate(150, 115) scale(3.5)">
+    <!-- Original Mascot SVG content -->
+    <circle cx="50" cy="55" r="35" fill="var(--cream-dark)" stroke="var(--ink)" stroke-width="3" />
+    <path d="M 25 35 Q 20 15 35 25" fill="var(--cream-dark)" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M 75 35 Q 80 15 65 25" fill="var(--cream-dark)" stroke="var(--ink)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+    <circle cx="38" cy="45" r="8" fill="#FFF" stroke="var(--ink)" stroke-width="3" />
+    <circle cx="62" cy="45" r="8" fill="#FFF" stroke="var(--ink)" stroke-width="3" />
+    <circle cx="38" cy="45" r="3" fill="var(--ink)" />
+    <circle cx="62" cy="45" r="3" fill="var(--ink)" />
+    <circle cx="39" cy="44" r="1" fill="#FFF" />
+    <circle cx="63" cy="44" r="1" fill="#FFF" />
+    <polygon points="47,52 53,52 50,58" fill="var(--coral)" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M 18 55 Q 5 65 15 75 Q 25 75 22 65" fill="var(--cream-dark)" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round" />
+    <path d="M 82 55 Q 95 65 85 75 Q 75 75 78 65" fill="var(--cream-dark)" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round" />
+    <g transform="translate(35, 65)">
+      <path d="M 0 5 L 15 10 L 30 5 L 30 20 L 15 25 L 0 20 Z" fill="var(--sky)" stroke="var(--ink)" stroke-width="2.5" stroke-linejoin="round" />
+      <path d="M 15 10 L 15 25" fill="none" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round" />
+      <path d="M 2 8 L 13 12" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round" />
+      <path d="M 17 12 L 28 8" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>

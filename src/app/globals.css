@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+
+@import 'tailwindcss';
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-coral: var(--coral);
+  --color-sky: var(--sky);
+  --color-sun: var(--sun);
+  --color-leaf: var(--leaf);
+  --color-cream-dark: var(--cream-dark);
+  --color-ink-light: var(--ink-light);
+
+  --color-background: var(--cream);
+  --color-foreground: var(--ink);
+  --color-border: var(--ink);
+  --color-input: var(--cream-dark);
+  --color-ring: var(--coral);
+
+  --color-primary: var(--coral);
+  --color-primary-foreground: var(--cream);
+  --color-secondary: var(--cream-dark);
+  --color-secondary-foreground: var(--ink);
+  --color-muted: var(--cream-dark);
+  --color-muted-foreground: var(--ink-light);
+  --color-accent: var(--sky);
+  --color-accent-foreground: var(--ink);
+
+  --font-sans: 'Nunito', sans-serif;
+  --font-display: 'Fredoka', sans-serif;
+
+  --shadow-cartoon: 4px 4px 0px 0px var(--ink);
+  --shadow-cartoon-sm: 2px 2px 0px 0px var(--ink);
+  --shadow-cartoon-hover: 6px 6px 0px 0px var(--ink);
+}
+
+:root {
+  --cream: #FBF5E6;
+  --ink: #2C1810;
+  --coral: #FF6B47;
+  --sky: #47B3E8;
+  --sun: #FFD23F;
+  --leaf: #5EC269;
+  --cream-dark: #F0E8D0;
+  --ink-light: #6B4C3B;
+}
+
+@layer base {
+  * {
+    @apply border-ink;
+  }
+  body {
+    @apply font-sans antialiased bg-cream text-ink;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-wide;
+  }
+}

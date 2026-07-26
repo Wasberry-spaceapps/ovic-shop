@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Book Quote Generator</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Controls -->
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <div class="logo">
+                    <span class="logo-icon">📖</span>
+                    <h1>Aesthetic Quote Generator</h1>
+                </div>
+                <p class="subtitle">Create beautifully framed literary quotes for your social pages.</p>
+            </header>
+
+            <main class="controls">
+                <!-- Section 1: Template Selection -->
+                <section class="control-section">
+                    <h2>1. Choose a Frame</h2>
+                    <div class="template-selector">
+                        <label class="template-card active" data-template="calligraphy">
+                            <input type="radio" name="template" value="calligraphy" checked>
+                            <img src="assets/frame_calligraphy.jpg" alt="Calligraphy Frame">
+                            <span class="card-label">Minimal Calligraphy</span>
+                        </label>
+                        <label class="template-card" data-template="vintage">
+                            <input type="radio" name="template" value="vintage">
+                            <img src="assets/frame_vintage.jpg" alt="Vintage Floral Frame">
+                            <span class="card-label">Vintage Floral</span>
+                        </label>
+                        <label class="template-card" data-template="modern">
+                            <input type="radio" name="template" value="modern">
+                            <img src="assets/frame_modern.jpg" alt="Modern Minimalist Frame">
+                            <span class="card-label">Modern Gold Line</span>
+                        </label>
+                    </div>
+                </section>
+
+                <!-- Section 2: Input Text -->
+                <section class="control-section">
+                    <div class="section-title-row">
+                        <h2>2. Write Your Quote</h2>
+                        <span id="char-counter" class="char-counter">0 / 220</span>
+                    </div>
+                    <div class="input-wrapper">
+                        <textarea id="quote-text" placeholder="Write something beautiful..." maxlength="220" rows="4"></textarea>
+                    </div>
+                    <div class="input-wrapper author-wrapper">
+                        <label for="quote-author">Author / Source (Optional)</label>
+                        <input type="text" id="quote-author" placeholder="e.g. Jane Austen, Pride and Prejudice" maxlength="60">
+                    </div>
+                </section>
+
+                <!-- Section 3: Styling -->
+                <section class="control-section">
+                    <h2>3. Refine Typography</h2>
+                    
+                    <!-- Font Family -->
+                    <div class="control-row">
+                        <label for="font-family">Font Family</label>
+                        <select id="font-family">
+                            <option value="'Playfair Display', serif" selected>Playfair Display (Elegant & Classic)</option>
+                            <option value="'EB Garamond', serif">EB Garamond (Traditional Literary)</option>
+                            <option value="'Lora', serif">Lora (Warm & Intellectual)</option>
+                            <option value="'Outfit', sans-serif">Outfit (Modern & Clean)</option>
+                        </select>
+                    </div>
+
+                    <!-- Font Style -->
+                    <div class="control-row inline-controls">
+                        <div class="control-col">
+                            <label for="font-weight">Weight</label>
+                            <select id="font-weight">
+                                <option value="400">Regular</option>
+                                <option value="500">Medium</option>
+                                <option value="600">Semi-Bold</option>
+                                <option value="700" selected>Bold</option>
+                            </select>
+                        </div>
+                        <div class="control-col">
+                            <label for="font-style">Style</label>
+                            <select id="font-style">
+                                <option value="normal">Normal</option>
+                                <option value="italic" selected>Italic</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Font Color -->
+                    <div class="control-row">
+                        <label for="font-color">Ink Color</label>
+                        <div class="color-picker-group">
+                            <label class="color-swatch active" style="background-color: #1a1a1a;" title="Charcoal">
+                                <input type="radio" name="text-color" value="#1a1a1a" checked>
+                            </label>
+                            <label class="color-swatch" style="background-color: #3b2a20;" title="Deep Sepia">
+                                <input type="radio" name="text-color" value="#3b2a20">
+                            </label>
+                            <label class="color-swatch" style="background-color: #1b263b;" title="Classic Navy">
+                                <input type="radio" name="text-color" value="#1b263b">
+                            </label>
+                            <label class="color-swatch" style="background-color: #2c4a3e;" title="Forest Green">
+                                <input type="radio" name="text-color" value="#2c4a3e">
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Advanced Adjustments -->
+                    <details class="advanced-adjustments">
+                        <summary>Advanced Layout Adjustments</summary>
+                        <div class="advanced-content">
+                            <!-- Font Size Adjuster -->
+                            <div class="control-row">
+                                <div class="slider-header">
+                                    <label for="font-size">Font Size</label>
+                                    <span id="font-size-val">38px</span>
+                                </div>
+                                <input type="range" id="font-size" min="24" max="64" value="38" step="1">
+                            </div>
+
+                            <!-- Line Height Adjuster -->
+                            <div class="control-row">
+                                <div class="slider-header">
+                                    <label for="line-height">Line Spacing</label>
+                                    <span id="line-height-val">1.5</span>
+                                </div>
+                                <input type="range" id="line-height" min="1.1" max="2.0" value="1.5" step="0.1">
+                            </div>
+
+                            <!-- Safe Margin Adjuster -->
+                            <div class="control-row">
+                                <div class="slider-header">
+                                    <label for="safe-margin">Side Margin Padding</label>
+                                    <span id="safe-margin-val">150px</span>
+                                </div>
+                                <input type="range" id="safe-margin" min="80" max="240" value="150" step="5">
+                            </div>
+                        </div>
+                    </details>
+                </section>
+
+                <!-- Actions -->
+                <div class="actions-group">
+                    <button id="download-btn" class="btn btn-primary">
+                        <span class="btn-icon">📥</span> Download Graphic
+                    </button>
+                </div>
+            </main>
+            
+            <footer class="sidebar-footer">
+                <p>Designed for Bookstore Social Media Posts • 1080 × 1080 High Res Output</p>
+            </footer>
+        </aside>
+
+        <!-- Preview Area -->
+        <section class="preview-area">
+            <div class="preview-container">
+                <div class="canvas-wrapper">
+                    <!-- The canvas will be rendered dynamically by JS -->
+                    <canvas id="output-canvas" width="1080" height="1080"></canvas>
+                </div>
+                <div class="preview-badge">1080 x 1080px Preview</div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+</html>
