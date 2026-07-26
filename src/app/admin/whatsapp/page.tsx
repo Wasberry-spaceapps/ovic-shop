@@ -60,7 +60,7 @@ export default function WhatsAppSettingsPage() {
         <button
           onClick={handleSave}
           disabled={saving}
-          className="bg-coral-500 hover:bg-coral-600 text-white px-6 py-2 rounded-xl transition-colors font-medium disabled:opacity-50"
+          className="bg-coral hover:bg-coral/90 text-white px-6 py-2 rounded-xl transition-colors font-medium disabled:opacity-50"
         >
           {saving ? 'Saving...' : 'Save Settings'}
         </button>
