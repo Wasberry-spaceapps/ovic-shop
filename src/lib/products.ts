@@ -26,6 +26,9 @@ export interface Product {
   slug: string;
   title: string;
   imageUrl: string;
+  author?: string;
+  description?: string;
+  price?: number;
   categories?: string[];
 }
 
