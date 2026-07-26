@@ -70,18 +70,28 @@ export default function ContentConsolePage() {
 
   return (
     <div className="bg-white rounded-3xl shadow-sm border border-stone-100 overflow-hidden">
-      <div className="p-6 border-b border-stone-100 bg-stone-50/50 flex justify-between items-center">
+      <div className="p-6 border-b border-stone-100 bg-stone-50/50 flex justify-between items-center sticky top-0 z-10">
         <h1 className="text-2xl font-quicksand font-bold text-stone-900">Global Content Console</h1>
         
-        <select 
-          value={selectedPage}
-          onChange={(e) => setSelectedPage(e.target.value)}
-          className="px-4 py-2 bg-white border border-stone-200 rounded-xl font-medium focus:ring-2 focus:ring-coral-500"
-        >
-          {pages.map(p => (
-            <option key={p} value={p}>{registry.data[p].title} Page</option>
-          ))}
-        </select>
+        <div className="flex gap-4 items-center">
+          <select 
+            value={selectedPage}
+            onChange={(e) => setSelectedPage(e.target.value)}
+            className="px-4 py-2 bg-white border border-stone-200 rounded-xl font-medium focus:ring-2 focus:ring-coral-500"
+          >
+            {pages.map(p => (
+              <option key={p} value={p}>{registry.data[p].title} Page</option>
+            ))}
+          </select>
+
+          <button
+            onClick={handleSave}
+            disabled={saving}
+            className="bg-coral-500 hover:bg-coral-600 text-white px-6 py-2 rounded-xl transition-colors font-medium disabled:opacity-50"
+          >
+            {saving ? 'Saving...' : 'Save Changes'}
+          </button>
+        </div>
       </div>
 
       <div className="p-8 space-y-6">
@@ -111,16 +121,6 @@ export default function ContentConsolePage() {
             )}
           </div>
         ))}
-
-        <div className="pt-6 border-t border-stone-100 flex justify-end">
-          <button
-            onClick={handleSave}
-            disabled={saving}
-            className="bg-coral-500 hover:bg-coral-600 text-white px-8 py-3 rounded-xl transition-colors font-medium disabled:opacity-50"
-          >
-            {saving ? 'Saving to GitHub...' : 'Save Changes'}
-          </button>
-        </div>
       </div>
     </div>
   );
