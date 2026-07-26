@@ -55,8 +55,15 @@ export default function WhatsAppSettingsPage() {
 
   return (
     <div className="bg-white rounded-3xl shadow-sm border border-stone-100 overflow-hidden">
-      <div className="p-6 border-b border-stone-100 bg-stone-50/50">
+      <div className="p-6 border-b border-stone-100 bg-stone-50/50 flex justify-between items-center sticky top-0 z-10">
         <h1 className="text-2xl font-quicksand font-bold text-stone-900">WhatsApp Settings</h1>
+        <button
+          onClick={handleSave}
+          disabled={saving}
+          className="bg-coral-500 hover:bg-coral-600 text-white px-6 py-2 rounded-xl transition-colors font-medium disabled:opacity-50"
+        >
+          {saving ? 'Saving...' : 'Save Settings'}
+        </button>
       </div>
 
       <div className="p-8 space-y-8">
@@ -97,16 +104,6 @@ export default function WhatsAppSettingsPage() {
             </svg>
             Test Link
           </a>
-        </div>
-
-        <div className="pt-6 border-t border-stone-100 flex justify-end">
-          <button
-            onClick={handleSave}
-            disabled={saving}
-            className="bg-coral-500 hover:bg-coral-600 text-white px-8 py-3 rounded-xl transition-colors font-medium disabled:opacity-50"
-          >
-            {saving ? 'Saving to GitHub...' : 'Save Settings'}
-          </button>
         </div>
       </div>
     </div>
