@@ -103,67 +103,65 @@ export function ProductForm({ initialData, isNew }: ProductFormProps) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-3xl shadow-sm border border-stone-100 p-8 space-y-6">
-      {error && <div className="text-red-500 bg-red-50 p-4 rounded-xl text-sm font-medium">{error}</div>}
+    <form onSubmit={handleSubmit} className="bg-white rounded-[24px] shadow-[4px_4px_0px_0px_var(--ink)] border-[3px] border-ink p-8 space-y-6">
+      {error && <div className="text-coral bg-cream-dark p-4 rounded-xl font-sans font-medium">{error}</div>}
 
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm font-medium text-stone-700 mb-1">Title</label>
+          <label className="block font-sans font-semibold text-ink mb-1">Title</label>
           <input
             required
             type="text"
             value={formData.title}
             onChange={(e) => setFormData({ ...formData, title: e.target.value })}
-            className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-coral-500"
+            className="w-full px-4 py-3 bg-cream border-[3px] border-ink rounded-xl focus:outline-none focus:border-coral font-sans"
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-stone-700 mb-1">Author</label>
+          <label className="block font-sans font-semibold text-ink mb-1">Author</label>
           <input
-            required
             type="text"
             value={formData.author}
             onChange={(e) => setFormData({ ...formData, author: e.target.value })}
-            className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-coral-500"
+            className="w-full px-4 py-3 bg-cream border-[3px] border-ink rounded-xl focus:outline-none focus:border-coral font-sans"
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <label className="block text-sm font-medium text-stone-700 mb-1">Price (numeric)</label>
+          <label className="block font-sans font-semibold text-ink mb-1">Price (numeric)</label>
           <input
-            required
             type="number"
             step="0.01"
             value={formData.price}
             onChange={(e) => setFormData({ ...formData, price: parseFloat(e.target.value) })}
-            className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-coral-500"
+            className="w-full px-4 py-3 bg-cream border-[3px] border-ink rounded-xl focus:outline-none focus:border-coral font-sans"
           />
         </div>
         <div>
-          <label className="block text-sm font-medium text-stone-700 mb-1">Cover Image URL</label>
+          <label className="block font-sans font-semibold text-ink mb-1">Cover Image URL</label>
           <input
             type="url"
             value={formData.imageUrl}
             onChange={(e) => setFormData({ ...formData, imageUrl: e.target.value })}
-            className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-coral-500"
+            className="w-full px-4 py-3 bg-cream border-[3px] border-ink rounded-xl focus:outline-none focus:border-coral font-sans"
           />
         </div>
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-stone-700 mb-1">Description</label>
+        <label className="block font-sans font-semibold text-ink mb-1">Description</label>
         <textarea
           rows={4}
           value={formData.description}
           onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-          className="w-full px-4 py-3 bg-stone-50 border border-stone-200 rounded-xl focus:ring-2 focus:ring-coral-500"
+          className="w-full px-4 py-3 bg-cream border-[3px] border-ink rounded-xl focus:outline-none focus:border-coral font-sans"
         />
       </div>
 
       <div>
-        <label className="block text-sm font-medium text-stone-700 mb-3">Categories</label>
+        <label className="block font-sans font-semibold text-ink mb-3">Categories</label>
         <div className="flex flex-wrap gap-2">
           {ALL_CATEGORIES.map(cat => {
             const isSelected = formData.categories?.includes(cat);
@@ -172,10 +170,10 @@ export function ProductForm({ initialData, isNew }: ProductFormProps) {
                 key={cat}
                 type="button"
                 onClick={() => toggleCategory(cat)}
-                className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors border ${
+                className={`px-3 py-1.5 rounded-full text-sm font-sans font-semibold transition-colors border-[3px] border-ink ${
                   isSelected 
-                    ? 'bg-sky-100 border-sky-200 text-sky-800' 
-                    : 'bg-white border-stone-200 text-stone-600 hover:bg-stone-50'
+                    ? 'bg-sky text-ink shadow-[2px_2px_0px_0px_var(--ink)] -translate-y-0.5' 
+                    : 'bg-cream text-ink hover:bg-cream-dark'
                 }`}
               >
                 {cat}
@@ -185,13 +183,13 @@ export function ProductForm({ initialData, isNew }: ProductFormProps) {
         </div>
       </div>
 
-      <div className="pt-6 border-t border-stone-100 flex justify-between items-center">
+      <div className="pt-6 border-t-2 border-ink/10 flex justify-between items-center">
         {!isNew ? (
           <button
             type="button"
             onClick={handleDelete}
             disabled={loading}
-            className="text-red-500 hover:text-red-600 hover:bg-red-50 px-4 py-2 rounded-xl transition-colors font-medium text-sm disabled:opacity-50"
+            className="text-coral hover:underline px-4 py-2 rounded-xl transition-colors font-sans font-semibold disabled:opacity-50"
           >
             Delete Product
           </button>
@@ -201,14 +199,14 @@ export function ProductForm({ initialData, isNew }: ProductFormProps) {
           <button
             type="button"
             onClick={() => router.push('/admin/products')}
-            className="text-stone-500 hover:text-stone-800 px-4 py-2 rounded-xl transition-colors font-medium text-sm"
+            className="text-ink hover:underline px-4 py-2 rounded-xl transition-colors font-sans font-semibold"
           >
             Cancel
           </button>
           <button
             type="submit"
             disabled={loading}
-            className="bg-coral-500 hover:bg-coral-600 text-white px-6 py-2 rounded-xl transition-colors font-medium disabled:opacity-50"
+            className="bg-coral text-cream border-[3px] border-ink shadow-[4px_4px_0px_0px_var(--ink)] hover:-translate-y-1 hover:shadow-[6px_6px_0px_0px_var(--ink)] active:translate-y-0 active:shadow-[2px_2px_0px_0px_var(--ink)] px-6 py-2 rounded-xl transition-all font-display font-semibold disabled:opacity-50"
           >
             {loading ? 'Saving to GitHub...' : (isNew ? 'Create Product' : 'Save Changes')}
           </button>

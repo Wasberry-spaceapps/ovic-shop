@@ -15,7 +15,16 @@ export function WhatsAppButton({ bookTitle }: { bookTitle: string }) {
   }
 
   const message = encodeURIComponent(`Hi! I'd like to buy: ${bookTitle}`);
-  const url = `${whatsappLink}?text=${message}`;
+  
+  // Ensure the link is absolute
+  let formattedLink = whatsappLink.trim();
+  if (!formattedLink.startsWith('http')) {
+    // If it's just a number (e.g. +234...) or wa.me without protocol
+    const cleanNumber = formattedLink.replace(/[^\d+]/g, '');
+    formattedLink = `https://wa.me/${cleanNumber}`;
+  }
+  
+  const url = `${formattedLink}?text=${message}`;
 
   return (
     <a
