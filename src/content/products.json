@@ -12,10 +12,10 @@
   },
   {
     "slug": "fun-with-phonics-1-4-shree",
-    "title": "Fun with Phonics (1-4) - Shree",
+    "title": "Fun with Phonics (1-4) - Shree.",
     "author": "",
     "description": "",
-    "price": 0,
+    "price": null,
     "imageUrl": "https://i.ibb.co/pJ4TvMc/2.jpg",
     "categories": [
       "All"
@@ -89,7 +89,7 @@
   },
   {
     "slug": "cambridge-primary-english-learner-s-book-and-workbook-1-5",
-    "title": "Cambridge Primary English - Learner\u2019s book and workbook (1-5)",
+    "title": "Cambridge Primary English - Learner’s book and workbook (1-5)",
     "author": "",
     "description": "",
     "price": 0,
@@ -100,7 +100,7 @@
   },
   {
     "slug": "cambridge-primary-science-learner-s-book-and-workbook-1-5",
-    "title": "Cambridge Primary Science - Learner\u2019s book and workbook (1-5)",
+    "title": "Cambridge Primary Science - Learner’s book and workbook (1-5)",
     "author": "",
     "description": "",
     "price": 0,
@@ -243,7 +243,7 @@
   },
   {
     "slug": "monitoring-your-health-reader-s-digest",
-    "title": "Monitoring Your Health - Reader\u2019s Digest",
+    "title": "Monitoring Your Health - Reader’s Digest",
     "author": "",
     "description": "",
     "price": 0,
@@ -342,7 +342,7 @@
   },
   {
     "slug": "pearson-s-complete-chemistry-for-secondary-schools",
-    "title": "Pearson\u2019s Complete Chemistry for Secondary Schools",
+    "title": "Pearson’s Complete Chemistry for Secondary Schools",
     "author": "",
     "description": "",
     "price": 0,
@@ -430,7 +430,7 @@
   },
   {
     "slug": "hoffbrand-s-essential-haematology-a-victor-hoffbrand-david-p-steensma",
-    "title": "Hoffbrand\u2019s Essential Haematology - A. Victor Hoffbrand, David P. Steensma",
+    "title": "Hoffbrand’s Essential Haematology - A. Victor Hoffbrand, David P. Steensma",
     "author": "",
     "description": "",
     "price": 0,
@@ -485,7 +485,7 @@
   },
   {
     "slug": "inderbir-singh-s-textbook-of-human-histology-pushpalatha-k",
-    "title": "Inderbir Singh\u2019s Textbook of Human Histology - Pushpalatha K.",
+    "title": "Inderbir Singh’s Textbook of Human Histology - Pushpalatha K.",
     "author": "",
     "description": "",
     "price": 0,
@@ -518,7 +518,7 @@
   },
   {
     "slug": "harper-sillustrated-biochemistry-victor-rodwell-david-bender-kathleen-botham-peter-kennelly-p-anthony-weil",
-    "title": "Harper\u2019sIllustrated Biochemistry - Victor Rodwell, David Bender, Kathleen Botham, Peter Kennelly, P. Anthony Weil",
+    "title": "Harper’sIllustrated Biochemistry - Victor Rodwell, David Bender, Kathleen Botham, Peter Kennelly, P. Anthony Weil",
     "author": "",
     "description": "",
     "price": 0,
@@ -540,7 +540,7 @@
   },
   {
     "slug": "jawetz-melnick-and-adelberg-s-medical-microbiology-karen-carroll-janet-butel-stephen-morse",
-    "title": "Jawetz, Melnick and Adelberg\u2019s Medical Microbiology - Karen Carroll, Janet Butel, Stephen Morse",
+    "title": "Jawetz, Melnick and Adelberg’s Medical Microbiology - Karen Carroll, Janet Butel, Stephen Morse",
     "author": "",
     "description": "",
     "price": 0,
@@ -606,7 +606,7 @@
   },
   {
     "slug": "chaurasia-s-human-anatomy-volumes-1-4-b-d-chaurasia",
-    "title": "Chaurasia\u2019s Human Anatomy (Volumes 1-4) - B.D. Chaurasia",
+    "title": "Chaurasia’s Human Anatomy (Volumes 1-4) - B.D. Chaurasia",
     "author": "",
     "description": "",
     "price": 0,
@@ -617,7 +617,7 @@
   },
   {
     "slug": "moore-s-clinically-oriented-anatomy-arthur-f-dalley-ii-anne-m-r-agur",
-    "title": "Moore\u2019s Clinically Oriented Anatomy - Arthur F. Dalley II, Anne M. R. Agur",
+    "title": "Moore’s Clinically Oriented Anatomy - Arthur F. Dalley II, Anne M. R. Agur",
     "author": "",
     "description": "",
     "price": 0,
@@ -628,7 +628,7 @@
   },
   {
     "slug": "kozier-and-erb-s-fundamentals-of-nursing-audrey-berman-geralyn-frandsen-shirlee-snyder",
-    "title": "Kozier and Erb\u2019s Fundamentals of Nursing - Audrey Berman, Geralyn Frandsen, Shirlee Snyder",
+    "title": "Kozier and Erb’s Fundamentals of Nursing - Audrey Berman, Geralyn Frandsen, Shirlee Snyder",
     "author": "",
     "description": "",
     "price": 0,
@@ -639,7 +639,7 @@
   },
   {
     "slug": "ross-and-wilson-s-anatomy-and-physiology-in-health-and-illness-anne-waugh-allison-grant",
-    "title": "Ross and Wilson\u2019s Anatomy and Physiology in Health and Illness - Anne Waugh, Allison Grant",
+    "title": "Ross and Wilson’s Anatomy and Physiology in Health and Illness - Anne Waugh, Allison Grant",
     "author": "",
     "description": "",
     "price": 0,
@@ -650,7 +650,7 @@
   },
   {
     "slug": "lehninger-s-principles-of-biochemistry-david-l-nelson-michael-m-cox",
-    "title": "Lehninger\u2019s Principles of Biochemistry - David L. Nelson, Michael M. Cox",
+    "title": "Lehninger’s Principles of Biochemistry - David L. Nelson, Michael M. Cox",
     "author": "",
     "description": "",
     "price": 0,
@@ -672,7 +672,7 @@
   },
   {
     "slug": "cunningham-s-manual-of-practical-anatomy-rachel-koshi",
-    "title": "Cunningham\u2019s Manual of Practical Anatomy - Rachel Koshi",
+    "title": "Cunningham’s Manual of Practical Anatomy - Rachel Koshi",
     "author": "",
     "description": "",
     "price": 0,
@@ -694,7 +694,7 @@
   },
   {
     "slug": "baker-and-silverton-s-introduction-to-medical-laboratory-technology-baker-silverton-pallister",
-    "title": "Baker and Silverton\u2019s Introduction to Medical Laboratory Technology - Baker, Silverton, Pallister",
+    "title": "Baker and Silverton’s Introduction to Medical Laboratory Technology - Baker, Silverton, Pallister",
     "author": "",
     "description": "",
     "price": 0,
@@ -705,7 +705,7 @@
   },
   {
     "slug": "agboola-s-textbook-of-obstetrics-and-gynecology-for-medical-students-olalekan-abudu-joseph-otubu",
-    "title": "Agboola\u2019s Textbook of Obstetrics and Gynecology for Medical Students - Olalekan Abudu & Joseph Otubu",
+    "title": "Agboola’s Textbook of Obstetrics and Gynecology for Medical Students - Olalekan Abudu & Joseph Otubu",
     "author": "",
     "description": "",
     "price": 0,
@@ -716,7 +716,7 @@
   },
   {
     "slug": "lachman-lieberman-s-the-theory-and-practice-of-industrial-pharmacy-roop-k-khar-s-p-vyas",
-    "title": "Lachman/Lieberman\u2019s The theory and Practice of Industrial Pharmacy - Roop K. Khar, S.P. Vyas",
+    "title": "Lachman/Lieberman’s The theory and Practice of Industrial Pharmacy - Roop K. Khar, S.P. Vyas",
     "author": "",
     "description": "",
     "price": 0,
@@ -727,7 +727,7 @@
   },
   {
     "slug": "ross-and-wilson-s-foundations-of-nursing-and-first-aid-d-usman-c-adegbite-j-obajemihin-j-ross-k-wilson-m-bray",
-    "title": "Ross and Wilson\u2019s Foundations of Nursing and First Aid - D Usman, C Adegbite, J Obajemihin, J Ross, K Wilson, M Bray",
+    "title": "Ross and Wilson’s Foundations of Nursing and First Aid - D Usman, C Adegbite, J Obajemihin, J Ross, K Wilson, M Bray",
     "author": "",
     "description": "",
     "price": 0,
@@ -760,7 +760,7 @@
   },
   {
     "slug": "cooper-and-gunn-s-dispensing-for-pharmaceutical-students-colin-gunn-john-william-cooper-and-sidney-james-carter",
-    "title": "Cooper and Gunn\u2019s Dispensing for Pharmaceutical Students - Colin Gunn, John William Cooper, and Sidney James Carter",
+    "title": "Cooper and Gunn’s Dispensing for Pharmaceutical Students - Colin Gunn, John William Cooper, and Sidney James Carter",
     "author": "",
     "description": "",
     "price": 0,
@@ -771,7 +771,7 @@
   },
   {
     "slug": "browse-s-introduction-to-the-symptoms-and-signs-of-surgical-disease-burnand-black-corbett-thomas",
-    "title": "Browse\u2019s Introduction to The Symptoms and Signs of Surgical Disease - Burnand, Black, Corbett, Thomas",
+    "title": "Browse’s Introduction to The Symptoms and Signs of Surgical Disease - Burnand, Black, Corbett, Thomas",
     "author": "",
     "description": "",
     "price": 0,
@@ -837,7 +837,7 @@
   },
   {
     "slug": "the-media-student-s-book-gill-branston-roy-stafford",
-    "title": "The Media Student\u2019s Book - Gill Branston, Roy Stafford",
+    "title": "The Media Student’s Book - Gill Branston, Roy Stafford",
     "author": "",
     "description": "",
     "price": 0,
@@ -969,7 +969,7 @@
   },
   {
     "slug": "the-oxford-dictionary-of-new-words",
-    "title": "The Oxford Dictionary Of New Words \u2764\ufe0f",
+    "title": "The Oxford Dictionary Of New Words ❤️",
     "author": "",
     "description": "",
     "price": 0,
@@ -980,7 +980,7 @@
   },
   {
     "slug": "practical-english-usage-michael-swan",
-    "title": "Practical English Usage - Michael Swan \u2764\ufe0f",
+    "title": "Practical English Usage - Michael Swan ❤️",
     "author": "",
     "description": "",
     "price": 0,
@@ -991,7 +991,7 @@
   },
   {
     "slug": "the-oxford-dictionary-of-english-grammar",
-    "title": "The Oxford Dictionary Of English Grammar \u2764\ufe0f",
+    "title": "The Oxford Dictionary Of English Grammar ❤️",
     "author": "",
     "description": "",
     "price": 0,
@@ -1002,7 +1002,7 @@
   },
   {
     "slug": "the-oxford-guide-to-english-usage",
-    "title": "The Oxford Guide To English Usage \u2764\ufe0f",
+    "title": "The Oxford Guide To English Usage ❤️",
     "author": "",
     "description": "",
     "price": 0,
@@ -1013,7 +1013,7 @@
   },
   {
     "slug": "half-of-a-yellow-sun-chimamanda-ngozi-adichie",
-    "title": "Half Of A Yellow Sun - Chimamanda Ngozi Adichie \u2764\ufe0f",
+    "title": "Half Of A Yellow Sun - Chimamanda Ngozi Adichie ❤️",
     "author": "",
     "description": "",
     "price": 0,
@@ -1222,7 +1222,7 @@
   },
   {
     "slug": "willis-s-practice-and-procedure-for-the-quantity-surveyor",
-    "title": "Willis\u2019s Practice And Procedure For The Quantity Surveyor",
+    "title": "Willis’s Practice And Procedure For The Quantity Surveyor",
     "author": "",
     "description": "",
     "price": 0,
@@ -1409,7 +1409,7 @@
   },
   {
     "slug": "lamlad-s-materials-science-and-engineering",
-    "title": "Lamlad\u2019s Materials Science And Engineering",
+    "title": "Lamlad’s Materials Science And Engineering",
     "author": "",
     "description": "",
     "price": 0,
@@ -1563,7 +1563,7 @@
   },
   {
     "slug": "excellence-in-physics-senior-secondary-1-3-student-s-book",
-    "title": "Excellence In Physics: Senior Secondary (1 - 3) Student\u2019s Book",
+    "title": "Excellence In Physics: Senior Secondary (1 - 3) Student’s Book",
     "author": "",
     "description": "",
     "price": 0,
@@ -1574,7 +1574,7 @@
   },
   {
     "slug": "excellence-in-mathematics-senior-secondary-1-3-student-s-book",
-    "title": "Excellence In Mathematics: Senior Secondary (1-3) Student\u2019s Book",
+    "title": "Excellence In Mathematics: Senior Secondary (1-3) Student’s Book",
     "author": "",
     "description": "",
     "price": 0,
@@ -1585,7 +1585,7 @@
   },
   {
     "slug": "excellence-in-mathematics-junior-secondary-1-3-student-s-book",
-    "title": "Excellence In Mathematics: Junior Secondary (1-3) Student\u2019s Book",
+    "title": "Excellence In Mathematics: Junior Secondary (1-3) Student’s Book",
     "author": "",
     "description": "",
     "price": 0,
@@ -1629,7 +1629,7 @@
   },
   {
     "slug": "new-smart-mathematics-primary-1-5-pupils-book",
-    "title": "New Smart Mathematics Primary 1-5 Pupils\u2019 Book",
+    "title": "New Smart Mathematics Primary 1-5 Pupils’ Book",
     "author": "",
     "description": "",
     "price": 0,
@@ -1640,7 +1640,7 @@
   },
   {
     "slug": "new-smart-history-primary-1-5-pupils-book",
-    "title": "New Smart History Primary 1-5 Pupils\u2019 Book",
+    "title": "New Smart History Primary 1-5 Pupils’ Book",
     "author": "",
     "description": "",
     "price": 0,
@@ -2443,7 +2443,7 @@
   },
   {
     "slug": "why-men-don-t-listen-and-women-can-t-read-maps",
-    "title": "Why Men Don\u2019t Listen And Women Can\u2019t Read Maps",
+    "title": "Why Men Don’t Listen And Women Can’t Read Maps",
     "author": "",
     "description": "",
     "price": 0,
@@ -2663,7 +2663,7 @@
   },
   {
     "slug": "my-dad-can-t-dance",
-    "title": "My Dad Can\u2019t Dance",
+    "title": "My Dad Can’t Dance",
     "author": "",
     "description": "",
     "price": 0,
@@ -2674,7 +2674,7 @@
   },
   {
     "slug": "gulliver-s-travels",
-    "title": "Gulliver\u2019s Travels",
+    "title": "Gulliver’s Travels",
     "author": "",
     "description": "",
     "price": 0,
@@ -2971,7 +2971,7 @@
   },
   {
     "slug": "teddy-s-123",
-    "title": "Teddy\u2019s 123",
+    "title": "Teddy’s 123",
     "author": "",
     "description": "",
     "price": 0,
@@ -3070,7 +3070,7 @@
   },
   {
     "slug": "wise-owl-s-story",
-    "title": "Wise Owl\u2019s Story",
+    "title": "Wise Owl’s Story",
     "author": "",
     "description": "",
     "price": 0,
@@ -3103,7 +3103,7 @@
   },
   {
     "slug": "winnie-s-magic-moments",
-    "title": "Winnie\u2019s Magic Moments",
+    "title": "Winnie’s Magic Moments",
     "author": "",
     "description": "",
     "price": 0,
@@ -3235,7 +3235,7 @@
   },
   {
     "slug": "the-oxford-children-s-encyclopedia-of-our-world",
-    "title": "The Oxford Children\u2019s Encyclopedia Of Our World",
+    "title": "The Oxford Children’s Encyclopedia Of Our World",
     "author": "",
     "description": "",
     "price": 0,
@@ -3334,7 +3334,7 @@
   },
   {
     "slug": "people-s-friend-annual-1999",
-    "title": "People\u2019s Friend Annual 1999",
+    "title": "People’s Friend Annual 1999",
     "author": "",
     "description": "",
     "price": 0,
@@ -3433,7 +3433,7 @@
   },
   {
     "slug": "gulliver-s-travels",
-    "title": "Gulliver\u2019s Travels",
+    "title": "Gulliver’s Travels",
     "author": "",
     "description": "",
     "price": 0,
@@ -3631,7 +3631,7 @@
   },
   {
     "slug": "the-world-s-worst-children",
-    "title": "The World\u2019s Worst Children",
+    "title": "The World’s Worst Children",
     "author": "",
     "description": "",
     "price": 0,
@@ -3774,7 +3774,7 @@
   },
   {
     "slug": "tigger-s-breakfast",
-    "title": "Tigger\u2019s Breakfast",
+    "title": "Tigger’s Breakfast",
     "author": "",
     "description": "",
     "price": 0,
@@ -3829,7 +3829,7 @@
   },
   {
     "slug": "oxford-children-dictionary",
-    "title": "Oxford Children\u2019 Dictionary",
+    "title": "Oxford Children’ Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -3917,7 +3917,7 @@
   },
   {
     "slug": "reader-s-digest-great-illustrated-dictionary",
-    "title": "Reader\u2019s Digest Great Illustrated Dictionary",
+    "title": "Reader’s Digest Great Illustrated Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -3939,7 +3939,7 @@
   },
   {
     "slug": "collins-primary-learner-s-dictionary",
-    "title": "Collins Primary Learner\u2019s Dictionary",
+    "title": "Collins Primary Learner’s Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -4148,7 +4148,7 @@
   },
   {
     "slug": "santa-s-ark",
-    "title": "Santa\u2019s Ark",
+    "title": "Santa’s Ark",
     "author": "",
     "description": "",
     "price": 0,
@@ -4159,7 +4159,7 @@
   },
   {
     "slug": "santa-s-suitcase",
-    "title": "Santa\u2019s Suitcase",
+    "title": "Santa’s Suitcase",
     "author": "",
     "description": "",
     "price": 0,
@@ -4302,7 +4302,7 @@
   },
   {
     "slug": "don-t-kiss-the-frog-princess-stories-with-attitude",
-    "title": "Don\u2019t Kiss The Frog! Princess Stories With Attitude",
+    "title": "Don’t Kiss The Frog! Princess Stories With Attitude",
     "author": "",
     "description": "",
     "price": 0,
@@ -4324,7 +4324,7 @@
   },
   {
     "slug": "while-we-can-t-hug",
-    "title": "While We Can\u2019t Hug",
+    "title": "While We Can’t Hug",
     "author": "",
     "description": "",
     "price": 0,
@@ -4412,7 +4412,7 @@
   },
   {
     "slug": "i-m-really-ever-so-not-well",
-    "title": "I\u2019m Really Ever So Not Well",
+    "title": "I’m Really Ever So Not Well",
     "author": "",
     "description": "",
     "price": 0,
@@ -4698,7 +4698,7 @@
   },
   {
     "slug": "the-sportsman-s-bible",
-    "title": "The Sportsman\u2019s Bible",
+    "title": "The Sportsman’s Bible",
     "author": "",
     "description": "",
     "price": 0,
@@ -4742,7 +4742,7 @@
   },
   {
     "slug": "women-s-devotional-and-study-bible",
-    "title": "Women\u2019s Devotional And Study Bible",
+    "title": "Women’s Devotional And Study Bible",
     "author": "",
     "description": "",
     "price": 0,
@@ -4775,7 +4775,7 @@
   },
   {
     "slug": "children-s-king-james-bible",
-    "title": "Children\u2019s King James Bible",
+    "title": "Children’s King James Bible",
     "author": "",
     "description": "",
     "price": 0,
@@ -4786,7 +4786,7 @@
   },
   {
     "slug": "children-s-living-bible",
-    "title": "Children\u2019s Living Bible",
+    "title": "Children’s Living Bible",
     "author": "",
     "description": "",
     "price": 0,
@@ -4808,7 +4808,7 @@
   },
   {
     "slug": "preacher-s-bible",
-    "title": "Preacher\u2019s Bible",
+    "title": "Preacher’s Bible",
     "author": "",
     "description": "",
     "price": 0,
@@ -4973,7 +4973,7 @@
   },
   {
     "slug": "decouvrir-l-ancien-testament-aujourd-hui",
-    "title": "Decouvrir L\u2019ancien Testament Aujourd\u2019hui",
+    "title": "Decouvrir L’ancien Testament Aujourd’hui",
     "author": "",
     "description": "",
     "price": 0,
@@ -4995,7 +4995,7 @@
   },
   {
     "slug": "the-children-s-bible",
-    "title": "The Children\u2019s Bible",
+    "title": "The Children’s Bible",
     "author": "",
     "description": "",
     "price": 0,
@@ -5061,7 +5061,7 @@
   },
   {
     "slug": "nelson-international-mathematics-pupil-s-book-6",
-    "title": "Nelson International Mathematics Pupil\u2019s Book 6",
+    "title": "Nelson International Mathematics Pupil’s Book 6",
     "author": "",
     "description": "",
     "price": 0,
@@ -5292,7 +5292,7 @@
   },
   {
     "slug": "nice-girls-don-t-get-the-corner-office-lois-p-frankel-phd",
-    "title": "Nice Girls Don\u2019t Get The Corner Office - Lois P. Frankel, Phd",
+    "title": "Nice Girls Don’t Get The Corner Office - Lois P. Frankel, Phd",
     "author": "",
     "description": "",
     "price": 0,
@@ -5589,7 +5589,7 @@
   },
   {
     "slug": "god-s-unmerited-favour-joseph-prince",
-    "title": "God\u2019s Unmerited Favour -Joseph Prince",
+    "title": "God’s Unmerited Favour -Joseph Prince",
     "author": "",
     "description": "",
     "price": 0,
@@ -5677,7 +5677,7 @@
   },
   {
     "slug": "what-s-age-got-to-do-with-it",
-    "title": "What\u2019s Age Got To Do With It?",
+    "title": "What’s Age Got To Do With It?",
     "author": "",
     "description": "",
     "price": 0,
@@ -5886,7 +5886,7 @@
   },
   {
     "slug": "rich-dad-s-prophecy-robert-t-kiyosaki-sharon-l-lechter",
-    "title": "Rich Dad\u2019s Prophecy - Robert T. Kiyosaki, Sharon L. Lechter",
+    "title": "Rich Dad’s Prophecy - Robert T. Kiyosaki, Sharon L. Lechter",
     "author": "",
     "description": "",
     "price": 0,
@@ -6073,7 +6073,7 @@
   },
   {
     "slug": "what-to-expect-when-you-re-expecting-heidi-murkoff",
-    "title": "What To Expect When You\u2019re Expecting - Heidi Murkoff",
+    "title": "What To Expect When You’re Expecting - Heidi Murkoff",
     "author": "",
     "description": "",
     "price": 0,
@@ -6106,7 +6106,7 @@
   },
   {
     "slug": "rich-dad-s-guide-to-investing-robert-t-kiyosaki",
-    "title": "Rich Dad\u2019s Guide To Investing - Robert T. Kiyosaki",
+    "title": "Rich Dad’s Guide To Investing - Robert T. Kiyosaki",
     "author": "",
     "description": "",
     "price": 0,
@@ -6227,7 +6227,7 @@
   },
   {
     "slug": "you-re-born-an-original-don-t-die-a-copy-john-mason",
-    "title": "You\u2019re Born An Original: Don\u2019t Die A Copy - John Mason",
+    "title": "You’re Born An Original: Don’t Die A Copy - John Mason",
     "author": "",
     "description": "",
     "price": 0,
@@ -6271,7 +6271,7 @@
   },
   {
     "slug": "things-i-wish-i-d-known-before-we-got-married-gary-chapman",
-    "title": "Things I Wish I\u2019d Known Before We Got Married - Gary Chapman",
+    "title": "Things I Wish I’d Known Before We Got Married - Gary Chapman",
     "author": "",
     "description": "",
     "price": 0,
@@ -6315,7 +6315,7 @@
   },
   {
     "slug": "how-to-be-found-by-the-man-you-ve-been-looking-for-michelle-hammond",
-    "title": "How To Be Found By The Man You\u2019ve Been Looking For - Michelle Hammond",
+    "title": "How To Be Found By The Man You’ve Been Looking For - Michelle Hammond",
     "author": "",
     "description": "",
     "price": 0,
@@ -6722,7 +6722,7 @@
   },
   {
     "slug": "the-360-leader-john-c-maxwell",
-    "title": "The 360\u00b0 Leader - John C. Maxwell",
+    "title": "The 360° Leader - John C. Maxwell",
     "author": "",
     "description": "",
     "price": 0,
@@ -6843,7 +6843,7 @@
   },
   {
     "slug": "following-god-s-plan-for-your-life-kenneth-e-hagin",
-    "title": "Following God\u2019s Plan For Your Life - Kenneth E. Hagin",
+    "title": "Following God’s Plan For Your Life - Kenneth E. Hagin",
     "author": "",
     "description": "",
     "price": 0,
@@ -7459,7 +7459,7 @@
   },
   {
     "slug": "it-s-your-time-joel-osteen",
-    "title": "It\u2019s Your Time - Joel Osteen",
+    "title": "It’s Your Time - Joel Osteen",
     "author": "",
     "description": "",
     "price": 0,
@@ -7470,7 +7470,7 @@
   },
   {
     "slug": "god-s-pattern-for-christian-service-gbile-akanni",
-    "title": "God\u2019s Pattern For Christian Service - Gbile Akanni",
+    "title": "God’s Pattern For Christian Service - Gbile Akanni",
     "author": "",
     "description": "",
     "price": 0,
@@ -7580,7 +7580,7 @@
   },
   {
     "slug": "new-fear-s-day-nina-ndubuisi",
-    "title": "New Fear\u2019s Day - Nina Ndubuisi",
+    "title": "New Fear’s Day - Nina Ndubuisi",
     "author": "",
     "description": "",
     "price": 0,
@@ -7668,7 +7668,7 @@
   },
   {
     "slug": "kenyon-s-living-poems-e-w-kenyon",
-    "title": "Kenyon\u2019s Living Poems - E.W Kenyon",
+    "title": "Kenyon’s Living Poems - E.W Kenyon",
     "author": "",
     "description": "",
     "price": 0,
@@ -7712,7 +7712,7 @@
   },
   {
     "slug": "don-t-pack-your-bags-yet-anita-oyakhilome",
-    "title": "Don\u2019t Pack Your Bags Yet! - Anita Oyakhilome",
+    "title": "Don’t Pack Your Bags Yet! - Anita Oyakhilome",
     "author": "",
     "description": "",
     "price": 0,
@@ -8042,7 +8042,7 @@
   },
   {
     "slug": "the-wives-book-for-the-wfe-who-s-best-at-everything-alison-maloney",
-    "title": "The Wives\u2019 Book For The Wfe Who\u2019s Best At Everything - Alison Maloney",
+    "title": "The Wives’ Book For The Wfe Who’s Best At Everything - Alison Maloney",
     "author": "",
     "description": "",
     "price": 0,
@@ -8064,7 +8064,7 @@
   },
   {
     "slug": "god-s-will-for-your-healing-gloria-copeland",
-    "title": "God\u2019s Will For Your Healing - Gloria Copeland",
+    "title": "God’s Will For Your Healing - Gloria Copeland",
     "author": "",
     "description": "",
     "price": 0,
@@ -8152,7 +8152,7 @@
   },
   {
     "slug": "hope-s-promise-tammy-barley",
-    "title": "Hope\u2019s Promise - Tammy Barley",
+    "title": "Hope’s Promise - Tammy Barley",
     "author": "",
     "description": "",
     "price": 0,
@@ -8603,7 +8603,7 @@
   },
   {
     "slug": "new-smart-english-primary-pupil-s-books-1-to-5",
-    "title": "New Smart English: Primary Pupil\u2019s Books 1 To 5",
+    "title": "New Smart English: Primary Pupil’s Books 1 To 5",
     "author": "",
     "description": "",
     "price": 0,
@@ -8614,7 +8614,7 @@
   },
   {
     "slug": "new-smart-mathematics-primary-pupil-s-books-1-to-5",
-    "title": "New Smart Mathematics: Primary Pupil\u2019s Books 1 To 5",
+    "title": "New Smart Mathematics: Primary Pupil’s Books 1 To 5",
     "author": "",
     "description": "",
     "price": 0,
@@ -8801,7 +8801,7 @@
   },
   {
     "slug": "bonjour-l-afrique-students-book-three-antrobus-anyanwu-mills",
-    "title": "Bonjour L\u2019afrique! Students\u2019 Book Three - Antrobus Anyanwu Mills",
+    "title": "Bonjour L’afrique! Students’ Book Three - Antrobus Anyanwu Mills",
     "author": "",
     "description": "",
     "price": 0,
@@ -8823,7 +8823,7 @@
   },
   {
     "slug": "new-practical-english-for-jss-students-books-1-3",
-    "title": "New Practical English For Jss Students\u2019 Books 1-3",
+    "title": "New Practical English For Jss Students’ Books 1-3",
     "author": "",
     "description": "",
     "price": 0,
@@ -9659,7 +9659,7 @@
   },
   {
     "slug": "death-and-the-king-s-horseman-wole-soyinka",
-    "title": "Death And The King\u2019s Horseman - Wole Soyinka",
+    "title": "Death And The King’s Horseman - Wole Soyinka",
     "author": "",
     "description": "",
     "price": 0,
@@ -9956,7 +9956,7 @@
   },
   {
     "slug": "forest-of-a-thousand-daemons-a-hunter-s-saga-d-o-fagunwa",
-    "title": "Forest Of A Thousand Daemons: A Hunter\u2019s Saga - D.O. Fagunwa",
+    "title": "Forest Of A Thousand Daemons: A Hunter’s Saga - D.O. Fagunwa",
     "author": "",
     "description": "",
     "price": 0,
@@ -9989,7 +9989,7 @@
   },
   {
     "slug": "gulliver-s-travels-jonathan-swift",
-    "title": "Gulliver\u2019s Travels - Jonathan Swift",
+    "title": "Gulliver’s Travels - Jonathan Swift",
     "author": "",
     "description": "",
     "price": 0,
@@ -11254,7 +11254,7 @@
   },
   {
     "slug": "macmillan-s-eko-ede-yoruba-ode-oni-iwe-kerin",
-    "title": "Macmillan\u2019s Eko Ede Yoruba Ode-Oni: Iwe Kerin",
+    "title": "Macmillan’s Eko Ede Yoruba Ode-Oni: Iwe Kerin",
     "author": "",
     "description": "",
     "price": 0,
@@ -11529,7 +11529,7 @@
   },
   {
     "slug": "king-solomon-s-mines-sir-h-rider-haggard",
-    "title": "King Solomon\u2019s Mines - Sir. H. Rider Haggard",
+    "title": "King Solomon’s Mines - Sir. H. Rider Haggard",
     "author": "",
     "description": "",
     "price": 0,
@@ -11738,7 +11738,7 @@
   },
   {
     "slug": "webster-s-universal-dictionary-and-thesaurus",
-    "title": "Webster\u2019s Universal Dictionary And Thesaurus",
+    "title": "Webster’s Universal Dictionary And Thesaurus",
     "author": "",
     "description": "",
     "price": 0,
@@ -11760,7 +11760,7 @@
   },
   {
     "slug": "kaplan-s-gmat-prep-plus-2021",
-    "title": "Kaplan\u2019s Gmat Prep Plus 2021",
+    "title": "Kaplan’s Gmat Prep Plus 2021",
     "author": "",
     "description": "",
     "price": 0,
@@ -11782,7 +11782,7 @@
   },
   {
     "slug": "barron-s-gre2016",
-    "title": "Barron\u2019s Gre2016",
+    "title": "Barron’s Gre2016",
     "author": "",
     "description": "",
     "price": 0,
@@ -11793,7 +11793,7 @@
   },
   {
     "slug": "barron-s-ielts",
-    "title": "Barron\u2019s Ielts",
+    "title": "Barron’s Ielts",
     "author": "",
     "description": "",
     "price": 0,
@@ -11870,7 +11870,7 @@
   },
   {
     "slug": "kaplan-s-gre-prep-plus-2023",
-    "title": "Kaplan\u2019s Gre Prep Plus 2023",
+    "title": "Kaplan’s Gre Prep Plus 2023",
     "author": "",
     "description": "",
     "price": 0,
@@ -11881,7 +11881,7 @@
   },
   {
     "slug": "kaplan-s-sat-total-prep-2023",
-    "title": "Kaplan\u2019s Sat Total Prep 2023",
+    "title": "Kaplan’s Sat Total Prep 2023",
     "author": "",
     "description": "",
     "price": 0,
@@ -11892,7 +11892,7 @@
   },
   {
     "slug": "kaplan-s-ielts-prep-plus-2019-2020",
-    "title": "Kaplan\u2019s Ielts Prep Plus 2019-2020",
+    "title": "Kaplan’s Ielts Prep Plus 2019-2020",
     "author": "",
     "description": "",
     "price": 0,
@@ -11903,7 +11903,7 @@
   },
   {
     "slug": "the-official-cambridge-guide-to-ielts-student-s-book-with-answers",
-    "title": "The Official Cambridge Guide To Ielts Student\u2019s Book With Answers",
+    "title": "The Official Cambridge Guide To Ielts Student’s Book With Answers",
     "author": "",
     "description": "",
     "price": 0,
@@ -11914,7 +11914,7 @@
   },
   {
     "slug": "barron-s-sat-30th-edition",
-    "title": "Barron\u2019s Sat 30th Edition",
+    "title": "Barron’s Sat 30th Edition",
     "author": "",
     "description": "",
     "price": 0,
@@ -12145,7 +12145,7 @@
   },
   {
     "slug": "roget-s-thesaurus-new-edition",
-    "title": "Roget\u2019s Thesaurus - New Edition",
+    "title": "Roget’s Thesaurus - New Edition",
     "author": "",
     "description": "",
     "price": 0,
@@ -12189,7 +12189,7 @@
   },
   {
     "slug": "primary-learner-s-dictionary",
-    "title": "Primary Learner\u2019s Dictionary",
+    "title": "Primary Learner’s Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -12200,7 +12200,7 @@
   },
   {
     "slug": "assell-s-french-english-dictionary",
-    "title": "Assell\u2019s French English Dictionary",
+    "title": "Assell’s French English Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -12299,7 +12299,7 @@
   },
   {
     "slug": "webster-s-pocket-quotation-dictionary",
-    "title": "Webster\u2019s Pocket Quotation Dictionary",
+    "title": "Webster’s Pocket Quotation Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -12365,7 +12365,7 @@
   },
   {
     "slug": "bailliere-s-nurses-dictionary",
-    "title": "Bailliere\u2019s Nurses\u2019 Dictionary",
+    "title": "Bailliere’s Nurses’ Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -12387,7 +12387,7 @@
   },
   {
     "slug": "black-s-veterinary-dictionary",
-    "title": "Black\u2018s Veterinary Dictionary",
+    "title": "Black‘s Veterinary Dictionary",
     "author": "",
     "description": "",
     "price": 0,
@@ -12398,7 +12398,7 @@
   },
   {
     "slug": "cambridge-checkpoint-s-lower-secondary-science-7-9",
-    "title": "Cambridge Checkpoint\u2019s Lower Secondary Science - 7-9",
+    "title": "Cambridge Checkpoint’s Lower Secondary Science - 7-9",
     "author": "",
     "description": "",
     "price": 0,
@@ -12574,7 +12574,7 @@
   },
   {
     "slug": "edexcel-s-igcse-chemistry",
-    "title": "Edexcel\u2019s Igcse Chemistry",
+    "title": "Edexcel’s Igcse Chemistry",
     "author": "",
     "description": "",
     "price": 0,
@@ -12706,7 +12706,7 @@
   },
   {
     "slug": "the-new-student-s-companion-for-primary-school-m-chew",
-    "title": "The New Student\u2019s Companion For Primary School - M. Chew",
+    "title": "The New Student’s Companion For Primary School - M. Chew",
     "author": "",
     "description": "",
     "price": 0,
@@ -12717,7 +12717,7 @@
   },
   {
     "slug": "a-z-of-jamb-s-use-of-english-dele-ashade",
-    "title": "A-Z Of Jamb\u2019s Use Of English - Dele Ashade",
+    "title": "A-Z Of Jamb’s Use Of English - Dele Ashade",
     "author": "",
     "description": "",
     "price": 0,
@@ -12750,7 +12750,7 @@
   },
   {
     "slug": "goodwill-s-100-essays-d-s-paul",
-    "title": "Goodwill\u2019s 100 Essays - D.S. Paul",
+    "title": "Goodwill’s 100 Essays - D.S. Paul",
     "author": "",
     "description": "",
     "price": 0,
@@ -12761,7 +12761,7 @@
   },
   {
     "slug": "goodwill-s-160-essays-d-s-paul",
-    "title": "Goodwill\u2019s 160 Essays - D.S. Paul",
+    "title": "Goodwill’s 160 Essays - D.S. Paul",
     "author": "",
     "description": "",
     "price": 0,
@@ -13146,7 +13146,7 @@
   },
   {
     "slug": "armstrong-s-handbook-of-human-resource-management-practice-michael-armstrong-stephen-taylor",
-    "title": "Armstrong\u2019s Handbook Of Human Resource Management Practice - Michael Armstrong, Stephen Taylor",
+    "title": "Armstrong’s Handbook Of Human Resource Management Practice - Michael Armstrong, Stephen Taylor",
     "author": "",
     "description": "",
     "price": 0,
@@ -13729,7 +13729,7 @@
   },
   {
     "slug": "the-student-s-cookery-book-enid-o-reilly-wright",
-    "title": "The Student\u2019s Cookery Book - Enid O'Reilly- Wright",
+    "title": "The Student’s Cookery Book - Enid O'Reilly- Wright",
     "author": "",
     "description": "",
     "price": 0,
@@ -13861,7 +13861,7 @@
   },
   {
     "slug": "architect-s-pocket-book-baden-powell-hetreed-ross",
-    "title": "Architect\u2019s Pocket Book - Baden-Powell, Hetreed, Ross",
+    "title": "Architect’s Pocket Book - Baden-Powell, Hetreed, Ross",
     "author": "",
     "description": "",
     "price": 0,
@@ -13993,7 +13993,7 @@
   },
   {
     "slug": "the-invisible-teacher-of-jamb-s-use-of-english-dele-ashade",
-    "title": "The Invisible Teacher Of Jamb\u2019s \u2018Use Of English\u2019 - Dele Ashade",
+    "title": "The Invisible Teacher Of Jamb’s ‘Use Of English’ - Dele Ashade",
     "author": "",
     "description": "",
     "price": 0,
@@ -14378,7 +14378,7 @@
   },
   {
     "slug": "criminal-procedure-code-cap-c42",
-    "title": "Criminal Procedure Code Cap \u201cC42\u201d",
+    "title": "Criminal Procedure Code Cap “C42”",
     "author": "",
     "description": "",
     "price": 0,
@@ -14499,7 +14499,7 @@
   },
   {
     "slug": "the-new-international-webster-s-comprehensive-dictionary-of-the-english-language",
-    "title": "The New International Webster\u2019s Comprehensive Dictionary Of The English Language",
+    "title": "The New International Webster’s Comprehensive Dictionary Of The English Language",
     "author": "",
     "description": "",
     "price": 0,
@@ -14543,7 +14543,7 @@
   },
   {
     "slug": "windows-2000-server-administrator-s-companion",
-    "title": "Windows 2000 Server Administrator\u2019s Companion",
+    "title": "Windows 2000 Server Administrator’s Companion",
     "author": "",
     "description": "",
     "price": 0,
@@ -14587,7 +14587,7 @@
   },
   {
     "slug": "riegel-s-handbook-of-industrial-chemistry",
-    "title": "Riegel\u2019s Handbook Of Industrial Chemistry",
+    "title": "Riegel’s Handbook Of Industrial Chemistry",
     "author": "",
     "description": "",
     "price": 0,
@@ -15170,7 +15170,7 @@
   },
   {
     "slug": "atticus-the-storyteller-s-100-greek-myths",
-    "title": "Atticus The Storyteller\u2019s 100 Greek Myths",
+    "title": "Atticus The Storyteller’s 100 Greek Myths",
     "author": "",
     "description": "",
     "price": 0,
