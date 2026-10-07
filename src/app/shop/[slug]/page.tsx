@@ -10,13 +10,17 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return getProducts().map((product) => ({ slug: product.slug }));
+  const products = getProducts();
+  if (products.length === 0) {
+    return [{ slug: '_placeholder' }];
+  }
+  return products.map((product) => ({ slug: product.slug }));
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const product = getProduct(slug);
-  if (!product) return { title: 'Not Found' };
+  if (!product) return { title: 'Not Found — Ovic Bookstore' };
   return {
     title: `${product.title} — Ovic Bookstore`,
     description: `Buy ${product.title} at Ovic Bookstore.`,
@@ -28,7 +32,16 @@ export default async function ProductPage({ params }: PageProps) {
   const product = getProduct(slug);
 
   if (!product) {
-    notFound();
+    return (
+      <div className="max-w-4xl mx-auto w-full px-4 sm:px-6 py-12 text-center">
+        <Breadcrumb href="/shop" label="Back to Shop" />
+        <div className="py-16">
+          <div className="text-6xl mb-4">🦉</div>
+          <h2 className="font-display text-2xl font-bold text-ink">Product Not Found</h2>
+          <p className="font-sans text-ink-light mt-2">This book is not currently available.</p>
+        </div>
+      </div>
+    );
   }
 
   return (
